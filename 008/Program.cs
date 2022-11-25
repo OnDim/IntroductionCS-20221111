@@ -1,14 +1,8 @@
-﻿internal class Program
+﻿// 8. Вывести на экран числа от -N до N
+int n = Convert.ToInt32(Console.ReadLine());
+int i = -n;
+while (i <= n)
 {
-    private static void Main(string[] args)
-    {
-        // 8. Вывести на экран числа от -N до N
-        int n = Convert.ToInt32(Console.ReadLine());
-        int i = -n;
-        while (i <= n)
-        {
-            Console.Write($"{i} ");
-            i++ ;
-        }
-    }
+    Console.Write($"{i} ");
+    i++ ;
 }
